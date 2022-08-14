@@ -1,0 +1,23 @@
+html,
+body {
+  @apply relative m-0 p-0 w-full h-full max-w-full;
+}
+
+a,
+input,
+button {
+  &:focus {
+    @apply outline-none;
+  }
+}
+
+img,
+svg,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+::placeholder {
+  color: #949494;
+}
